@@ -6,25 +6,117 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Monoton', cursive; */
 
 /*------------Global Styles and General Typography ----------*/
+html{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
 
 h1 {
   font-family: Monoton, sans-serif;
   color: white;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+h2{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover{
+  background-color: #399bd1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active{
+  background-color: #399bd1;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn-lg {
+  width: 11.4rem;
+  padding:1.3rem;
+}
+
+a.btn.btn-primary.btn-lg {
+  color: white;
 }
 
 /*----------Fixed Top Navigation ----------------*/
+.navbar{
+  background-color:white;
+}
 
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.nav-link:hover{
+  color: #399bd1;
+}
 
 /*----------Jumbotron-----------*/
 
+.jumbotron {
+  padding: 11.85rem 0;
+  margin-top: 40px;
+}
 
+.wrap {
+  width: 60%;
+  margin: auto;
+}
+
+.jumbotron-bike{
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.jumbotron-flowers{
+  background-image: url("../images/jumbotron-flowers.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 /*-----------Projects and Featured Project----------*/
 
 .image-container {
-  opacity: .8;
+  overflow: hidden;
 }
 
 .image-container:hover {
+  
+}
+
+.image-container img{
+  transform-origin: center;
+  opacity: .7;
+}
+
+.image-container img:hover{
   opacity: 1;
+  transform:scale(1.3);
+  transition: transform 0.5s ease, opacity 1.5s ease;
 }
