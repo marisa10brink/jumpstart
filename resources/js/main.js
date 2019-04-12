@@ -1,7 +1,7 @@
 // JavaScript Document
 
 $(document).ready(function(){
-  $('.jumbotron').slick({
+  $('.carousel').slick({
     autoplay: true,
     autoplaySpeed: 4000, 
     arrows: false,
