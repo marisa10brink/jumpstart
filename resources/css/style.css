@@ -4,3 +4,27 @@
 /*---------- Fonts -------------
 font-family: 'Open Sans', sans-serif;
 font-family: 'Monoton', cursive; */
+
+/*------------Global Styles and General Typography ----------*/
+
+h1 {
+  font-family: Monoton, sans-serif;
+  color: white;
+}
+
+/*----------Fixed Top Navigation ----------------*/
+
+
+/*----------Jumbotron-----------*/
+
+
+
+/*-----------Projects and Featured Project----------*/
+
+.image-container {
+  opacity: .8;
+}
+
+.image-container:hover {
+  opacity: 1;
+}
